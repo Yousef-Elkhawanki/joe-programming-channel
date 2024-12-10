@@ -1,0 +1,67 @@
+ .hero-banner{
+    /* height: 100vh; */
+ }
+ .banner-image{
+    height: 25rem;
+ }
+ .banner-content{
+    background: #219ebc;
+ }
+ .card_image{
+    height: 20rem;
+ }
+ .badge{
+    background: #219ebc;
+    top: 1em;
+    left: 1em;
+ }
+ .card_image img {
+    object-fit: cover;
+    object-position: top center;
+ }
+ img {
+    width: 100%;
+    height: 100%;
+ }
+ .navbar-toggler:focus {
+    box-shadow: none !important;
+ }
+
+ .gallery{
+  
+ }
+ .gallery .container {
+    gap: 2em;
+ }
+ .parent_image {
+    width: 65%;
+    flex-shrink: 0;
+ }
+ .child_container_images{
+    width: 100%;
+ }
+ .parent_image,.child_container_images{
+    height: 60vh;
+ }
+ .child_container_images{
+    gap: 2em;
+ }
+ .child_image{
+    height: calc((100% - 2rem) / 2);
+ }
+.ads_image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/bg1.jpg);
+    height: 80vh;
+    background-size: cover;
+}
+ @media (max-width: 768px) {
+    .gallery .container {
+        flex-direction: column;
+    }
+    .parent_image {
+        width: 100%;
+    }
+    .child_container_images{
+        height: fit-content;
+    }
+ }
