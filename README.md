@@ -1,1 +1,4 @@
-<video src="./intro.mp4" width="500" height="500">
+<video width="600" controls>
+  <source src="intro.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
